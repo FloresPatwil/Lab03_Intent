@@ -83,13 +83,13 @@
         android:id="@+id/textCarrera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="96dp"
         android:layout_marginEnd="140dp"
         android:text="-----"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textColegio" />
+        app:layout_constraintTop_toBottomOf="@+id/textDate" />
 
     <TextView
         android:id="@+id/textNombres"
@@ -109,11 +109,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="456dp"
+        android:layout_marginBottom="254dp"
         android:fontFamily="serif"
         android:text="Carrera"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:textSize="16sp" />
 
     <TextView
@@ -122,9 +125,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="396dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="39dp"
         android:fontFamily="serif"
         android:text="Colegio"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewApellidoPaterno8"
+        app:layout_constraintEnd_toStartOf="@+id/textColegio"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:textSize="16sp" />
@@ -148,9 +155,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="272dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="43dp"
         android:fontFamily="serif"
         android:text="Apellidos"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewApellidoPaterno6"
+        app:layout_constraintEnd_toStartOf="@+id/textApellidos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:textSize="16sp" />
@@ -161,9 +172,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="212dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="39dp"
         android:fontFamily="serif"
         android:text="Nombres"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewApellidoPaterno5"
+        app:layout_constraintEnd_toStartOf="@+id/textNombres"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:textSize="16sp" />
@@ -174,9 +189,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="160dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="31dp"
         android:fontFamily="serif"
         android:text="DNI"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewApellidoPaterno4"
+        app:layout_constraintEnd_toStartOf="@+id/textDni"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:textSize="16sp" />
