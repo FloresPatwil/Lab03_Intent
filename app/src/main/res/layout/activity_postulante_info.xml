@@ -8,7 +8,7 @@
     tools:context=".Activity_PostulanteInfo">
 
     <Button
-        android:id="@+id/buttonEnviar2"
+        android:id="@+id/buttonBuscar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -28,6 +28,7 @@
         android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="text"
+        android:textColor="#225C6E"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,48 +36,48 @@
         android:id="@+id/textDni"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
         android:layout_marginTop="160dp"
-        android:layout_marginEnd="140dp"
         android:text="-----"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewApellidoPaterno3"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textApellidos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
         android:layout_marginTop="28dp"
-        android:layout_marginEnd="140dp"
         android:text="-----"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewApellidoPaterno5"
         app:layout_constraintTop_toBottomOf="@+id/textNombres" />
 
     <TextView
         android:id="@+id/textDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="36dp"
-        android:layout_marginEnd="140dp"
         android:text="-----"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewApellidoPaterno6"
         app:layout_constraintTop_toBottomOf="@+id/textApellidos" />
 
     <TextView
         android:id="@+id/textColegio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
         android:layout_marginTop="28dp"
-        android:layout_marginEnd="140dp"
         android:text="-----"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewApellidoPaterno7"
         app:layout_constraintTop_toBottomOf="@+id/textDate" />
 
     <TextView
@@ -95,12 +96,12 @@
         android:id="@+id/textNombres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="140dp"
         android:text="-----"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewApellidoPaterno4"
         app:layout_constraintTop_toBottomOf="@+id/textDni" />
 
     <TextView
